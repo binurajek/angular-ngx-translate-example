@@ -1,0 +1,19 @@
+{
+    "HEADER": {
+        "TITLE": "Applicatiekop",
+        "LANGUAGE": "Taal",
+        "USER_MENU": "Gebruikersmenu"
+    },
+    "DASHBOARD": {
+        "WELCOME": "Welkom bij het dashboard",
+        "USERS": "Totaal gebruikers",
+        "SALES": "Totaal verkocht",
+        "REVENUE": "Totale inkomsten",
+        "SUMMARY": "Dit is een dummy-dashboard om i18n te demonstreren."
+    },
+    "LANG": {
+        "EN": "Engels",
+        "NL": "Nederlands",
+        "FR": "Frans"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "HEADER": {
+        "TITLE": "En-tête de l'application",
+        "LANGUAGE": "Langue",
+        "USER_MENU": "Menu Utilisateur"
+    },
+    "DASHBOARD": {
+        "WELCOME": "Bienvenue sur le tableau de bord",
+        "USERS": "Utilisateurs totaux",
+        "SALES": "Ventes totales",
+        "REVENUE": "Revenu total",
+        "SUMMARY": "Ceci est un tableau de bord factice pour démontrer i18n."
+    },
+    "LANG": {
+        "EN": "Anglais",
+        "NL": "Néerlandais",
+        "FR": "Français"
+    }
+}

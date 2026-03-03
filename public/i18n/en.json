@@ -1,0 +1,19 @@
+{
+    "HEADER": {
+        "TITLE": "Application Header",
+        "LANGUAGE": "Language",
+        "USER_MENU": "User Menu"
+    },
+    "DASHBOARD": {
+        "WELCOME": "Welcome to the Dashboard",
+        "USERS": "Total Users",
+        "SALES": "Total Sales",
+        "REVENUE": "Total Revenue",
+        "SUMMARY": "This is a dummy dashboard to demonstrate i18n."
+    },
+    "LANG": {
+        "EN": "English",
+        "NL": "Dutch",
+        "FR": "French"
+    }
+}

@@ -1,0 +1,40 @@
+<header class="app-header">
+  <div class="header-left">
+    <span>{{ 'HEADER.TITLE' | translate }}</span>
+  </div>
+  <div class="header-right">
+    <div class="user-menu">
+      <span>{{ 'HEADER.USER_MENU' | translate }}</span>
+      <select class="language-select" #langSelect (change)="switchLanguage(langSelect.value)">
+        <option value="en" [selected]="currentLang === 'en'">{{ 'LANG.EN' | translate }}</option>
+        <option value="nl" [selected]="currentLang === 'nl'">{{ 'LANG.NL' | translate }}</option>
+        <option value="fr" [selected]="currentLang === 'fr'">{{ 'LANG.FR' | translate }}</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main class="dashboard">
+  <h1>{{ 'DASHBOARD.WELCOME' | translate }}</h1>
+  <p class="summary">{{ 'DASHBOARD.SUMMARY' | translate }}</p>
+
+  <div class="dashboard-cards">
+    <div class="card">
+      <div class="card-icon">Users</div>
+      <div class="card-value">1,245</div>
+      <div class="card-title">{{ 'DASHBOARD.USERS' | translate }}</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">Cart</div>
+      <div class="card-value">342</div>
+      <div class="card-title">{{ 'DASHBOARD.SALES' | translate }}</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">Revenue</div>
+      <div class="card-value">$45,200</div>
+      <div class="card-title">{{ 'DASHBOARD.REVENUE' | translate }}</div>
+    </div>
+  </div>
+</main>
+
+<router-outlet></router-outlet>
